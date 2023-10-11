@@ -43,6 +43,12 @@ go run main.go
 ```
 # Ejemplo de uso de solicitudes HTTP de la API
 
+Admite uso de:
+- GET http://localhost:3000/propietarios ó mascotas Para recibir la información de esa tabla.
+- POST http://localhost:3000/propietarios ó mascotas Para añadir un nuevo Propietario o Mascota en la base de datos.
+- GET http://localhost:3000/propietarios ó mascotas/{id} Para recibir la información en especifico de un propietario o mascota por su ID.
+- DELETE http://localhost:3000/propietarios ó mascotas/{id} Para eliminar un Propietario o Mascota por su ID.
+---
 ### Tabla Mascotas
 
 | Nombre      | Especie  | Raza              | Genero  | Peso | Temperatura | Observación        | MascotaID | PropietarioID |
